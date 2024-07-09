@@ -1,0 +1,21 @@
+.clients {
+  z-index: 0;
+  overflow: hidden;
+  position: relative;
+}
+/* .clients::before {
+  content: "";
+  width: 80%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+} */
+.head {
+  background-color: #fff;
+}
+.head-text {
+  width: 300px;
+}

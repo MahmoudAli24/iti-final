@@ -1,0 +1,251 @@
+.header {
+  background-color: #160979;
+  padding-top: 20px;
+  margin: -8px -8px 0 -8px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.c-info {
+  padding-left: 180px;
+  padding-bottom: 20px;
+}
+
+.droper {
+  display: inline;
+}
+
+.nav {
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.cms {
+  color: darkblue;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+.agency {
+  color: lightgreen;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+.menu {
+  list-style-type: none;
+  padding-left: 300px;
+  margin: 0;
+  display: flex;
+  gap: 50px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-weight: bold;
+  transition: color 0.3s, font-size 0.3s;
+}
+
+.menu li a:hover {
+  color: lightgreen;
+  font-size: 35px;
+}
+
+.start-project {
+  position: absolute;
+  right: 100px;
+  background-color: lightgreen;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.start-project button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.start-project button:hover {
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+.buttons {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.contact-button {
+  background-color: lightgreen;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 20px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  margin-right: 10px;
+  font-size: large;
+}
+
+.contact-button:hover {
+  transform: scale(1.1);
+}
+
+.small-image {
+  width: 600px;
+  height: auto;
+  margin-top: -280px;
+  margin-left: 55%;
+  margin-bottom: 100px;
+}
+
+.underlined-text {
+  color: lightgreen;
+  text-decoration: double underline yellow;
+}
+
+.partners {
+  font-size: 24px;
+  border-left: 5px solid yellow;
+  height: 30px;
+  font-weight: bold;
+  color: darkblue;
+  padding-left: 20px;
+}
+.partner-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.partner-logos img {
+  max-width: 100px;
+  margin: 0 10px;
+}
+
+.photo-text-section {
+  display: flex;
+  align-items: center;
+  margin-top: 200px;
+  margin-left: 350px;
+  padding: 20px;
+}
+
+.section-photo {
+  max-width: 100%;
+  margin-right: 20px;
+}
+
+.section-text {
+  text-align: left;
+}
+
+.learn-more-button {
+  display: inline-block;
+  background-color: lightgreen;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.learn-more-button:hover {
+  background-color: darkgreen;
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    padding-top: 10px;
+  }
+
+  .c-info {
+    padding-left: 20px;
+  }
+
+  .nav {
+    padding: 5px;
+  }
+
+  .cms,
+  .agency {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .menu {
+    padding-left: 50px;
+  }
+
+  .menu li a {
+    font-size: 20px;
+    margin: 0 10px;
+  }
+
+  .start-project {
+    right: 20px;
+  }
+
+  .buttons {
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .contact-button {
+    padding: 15px 25px;
+    font-size: 18px;
+    margin-right: 5px;
+  }
+
+  .small-image {
+    margin-top: -150px;
+    margin-left: 10%;
+    margin-bottom: 50px;
+  }
+
+  .partners {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+
+  .partner-logos {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .partner-logos img {
+    max-width: 80px;
+    margin: 5px;
+  }
+
+  .photo-text-section {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-left: 20px;
+  }
+
+  .section-photo {
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  .section-text {
+    text-align: left;
+  }
+}

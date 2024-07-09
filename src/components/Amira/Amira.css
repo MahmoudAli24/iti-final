@@ -1,0 +1,265 @@
+.button-header-white {
+  color: white;
+  background-color: #32de84;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+  border: none;
+  width: 75px;
+  transition: 0.2s ease;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.button-header-green {
+  color: #4b4b4b;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+  width: 75px;
+  border: 1px solid rgba(0, 0, 0, 0.178);
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-buttoms {
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.button-header-green:hover {
+  background-color: #32de84;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-header-white:hover {
+  background-color: #bac4bc;
+  justify-content: center;
+  align-items: center;
+}
+
+.Basic,
+.premium {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(14, 14, 94);
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: -5px;
+  margin-top: -15px;
+}
+
+.standard {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: -5px;
+  margin-top: -15px;
+}
+.pricing-plan-card-container {
+  color: #ffffff;
+}
+
+.bg-container {
+  background-color: #f6f3f3b2;
+  min-height: 100vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing-plans-container {
+  width: 90%;
+  max-width: 1100px;
+  align-items: center;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  color: #000000;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.description {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  color: #0000008f;
+  text-align: center;
+  font-weight: 600;
+}
+
+.pricing-plan-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  color: #3b3838;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing-plan-card-standard {
+  background-color: #fff;
+  width: 320px;
+  border-radius: 16px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  margin-bottom: 32px;
+  box-shadow: 7px 1px 20px -9px rgba(0, 0, 0, 0.489);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.pricing-plan-card::after,
+.pricing-plan-card-standard::after {
+  content: "";
+  position: absolute;
+  top: -91%;
+  left: -94%;
+  width: 620px;
+  height: 620px;
+  border-radius: 50%;
+  background-color: #ccc;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  z-index: -1;
+}
+.pricing-plan-card-standard::after {
+  background-color: #32de85;
+}
+
+.pricing-plan-card {
+  background-color: #fff;
+  width: 320px;
+  border-radius: 16px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  margin-bottom: 32px;
+  box-shadow: 1px 1px 15px -1px rgba(0, 0, 0, 0.489);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.price {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  color: rgb(14, 14, 94);
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.price-standard {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.price-premium {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  color: #000000;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.sup-element {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  color: #00000075;
+}
+
+.pricing-plan-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 1px;
+  color: #fefefe;
+}
+.features-list {
+  padding-left: 1px;
+  flex-grow: 1;
+  word-spacing: 0.2em;
+  color: #6d6c6c;
+}
+
+.features-list-standard {
+  padding-left: 1px;
+  flex-grow: 1;
+  word-spacing: 0.2em;
+  color: #ffffff;
+}
+
+.feature {
+  font-family: "Poppins", sans-serif;
+  color: #f8fafc;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.button-element {
+  color: #ffffff;
+  background-color: #32de84;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  border: 0.1px solid rgba(0, 0, 0, 0.151);
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-radius: 4px;
+  width: 100px;
+  transition: 0.2s ease;
+  cursor: pointer;
+  margin-bottom: -12px;
+}
+.button-element:hover {
+  background-color: white;
+  color: #000000;
+}
+
+.business-plan-button-element {
+  color: #ffffff;
+  background-color: rgb(14, 14, 94);
+}
+.business-plan-button-element:hover {
+  background-color: #ffffff;
+}
+.top-buttoms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
